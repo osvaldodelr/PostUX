@@ -1,2 +1,3 @@
-# postux
-framework blog page
+# PostUX
+
+Framework for client's blogs.
