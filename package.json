@@ -1,0 +1,19 @@
+{
+    "name": "postux",
+    "version": "1.0.0",
+    "description": "Framework for client's blogs.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Luismi74/postux.git"
+    },
+    "author": "Luis & Osvaldo",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Luismi74/postux/issues"
+    },
+    "homepage": "https://github.com/Luismi74/postux#readme"
+}
