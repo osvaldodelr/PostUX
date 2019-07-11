@@ -14,9 +14,9 @@ app.set('views', path.join(__dirname, 'views'));
 app.engine('.hbs', exphbs({
     defaultLayout: 'main',
     layoutsDir: path.join(app.get('views'), 'layout'),
-    partialsDir: path.join(app.get('views'), 'partials'),
-    backofficeDir: path.join(app.get('views'), 'partials'),
-    loginDir: path.join(app.get('views'), 'partials'),
+    //partialsDir: path.join(app.get('views'), 'partials'),
+    //backofficeDir: path.join(app.get('views'), 'backoffice'),
+    //loginDir: path.join(app.get('views'), 'login'),
     extname: '.hbs',
     helpers: require('./lib/handlebars')
 
@@ -38,12 +38,13 @@ app.use((req, res, next) => {
 // Routes:
 app.use(require('./routes/index'));
 app.use(require('./routes/login'));
-app.use(require('./routes/post'));
+app.use('/post', require('./routes/post'));
 
 
 
 // Public:
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '/public')));
+
 
 // Starting the Server:
 app.listen(app.get('port'), () => {

@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
-const pool = require('../database');
+const db = require('../database');
 
-router.get('/post', (req, res) => {
-    res.send('Hello Post');
+router.get('/add', (req, res) => {
+    res.render('./post/add');
 });
 
 module.exports = router;
