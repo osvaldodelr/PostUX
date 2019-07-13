@@ -2,7 +2,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    height: 100vh;
+    height: 10vh;
 }
 
 a {
@@ -24,7 +24,6 @@ h2 {
 
 
 /* STRUCTURE */
-
 .wrapper {
     display: flex;
     align-items: center;

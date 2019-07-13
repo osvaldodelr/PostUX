@@ -2,6 +2,19 @@
 
 .HeaderBar {
     background: #1c3643;
-    -webkit-box-shadow: 0 10px 5px 0 rgba(95, 186, 233, 0.4);
-    box-shadow: 0 10px 5px 0 rgba(95, 186, 233, 0.4);
+/*      -webkit-box-shadow:  0 10px 5px 0 rgba(95, 186, 233, 0.4);
+        box-shadow:  0 10px 5px 0 rgba(95, 186, 233, 0.4);
+*/
+}
+
+.colorObjGreen{
+    background: #95ca3e;
+}
+
+.colorTexGreen{
+    color: #95ca3e;
+}
+
+.colorObjAzul{
+    background: #1c3643;
 }

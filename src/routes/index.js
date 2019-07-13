@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/', (req, res) => {
-    res.render('./partials/index');
+    res.send('aun no se ha renderizado vista en la ruta routes/index');
 });
 
 module.exports = router;
